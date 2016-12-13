@@ -1,27 +1,5 @@
-# gh-pages-generator
-Multi-page site generator converting markdown files to github pages
+hankquinlan.github.io
+=====================
+This is demo data created by [Jonathan McGlone](http://jmcglone.com) and used in a [step-by-step beginners guide](http://jmcglone.com/guides/github-pages) to creating and hosting a personal website using GitHub and Jekyll. You can view the demo data at <http://hankquinlan.github.io> and read the guide at <http://jmcglone.com/guides/github-pages>. 
 
-## Istall
-
-```
-npm install -g gh-pages-generator
-```
-
-
-## Usage
-
-```
-gh-pages-generator site_config.json
-```
-
-This utility generates site for gh-pages using multiple markdown files.
-
-It replaces the links between the files and generates site navigation.
-
-Site configuration file is defined by [the JSON-schema](https://github.com/epoberezkin/gh-pages-generator/blob/master/site_config_schema.json).
-
-See [example site configuration in Ajv repository](https://github.com/epoberezkin/ajv/blob/gh-pages/site.json).
-
-If config file is not specified, `site.json` is used.
-
-You can automate site generation with Travis. See [example script](https://github.com/epoberezkin/ajv/blob/master/scripts/travis-gh-pages).
+Users are free to copy and re-use any and all of the code contained here without contacting me.
