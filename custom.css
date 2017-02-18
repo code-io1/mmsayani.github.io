@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: blue;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+		color:#3b5998;
+    background-color: transparent;
+}
+.fa-facebook:hover {
+	  color:white;
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+		color:#00aced;
+    background-color: transparent;
+}
+.fa-twitter:hover {
+	  color:white;
+    background-color: #00aced;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+		color: #007bb5;
+    background-color: transparent;
+}
+.fa-linkedin:hover {
+	  color:white;
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+		color: #e25714;
+    background-color: transparent;
+}
+.fa-google-plus:hover {
+	color:white;
+    background-color: #e25714;
+}
+
+
+.mytext {
+	width: 300px;
+
+	margin-right: 0px;
+	margin-left: 1000;
+
+}
+.h1{
+	font-size: 3.5em;
+}
+
+.myjumbotron{
+
+	height: 700px;
+	background-image: url("back3.jpg");
+
+
+}
+
+.headtext{
+padding-top: 100px;
+line-height: 50px;
+text-align: center;
+color: black;
+font-size: 2em;
+fadeInDown animated
+
+}
+
+.container{
+	color: black;
+}
+
+@media only screen and (max-width: 400px) {
+body { font-size:90%;}
+}
+.mysec h1{
+	font-size: 3.5em;
+	font-family: fantasy;
+}
+
+.mysec blockquote{
+	font-family: inherit;
+}
+
+footer {
+	padding: 10px;
+	border-top:
+}
+footer img{
+	margin: 0px 5px 5px 5px;
+	height: 33px;
+	width: 33px;
+	}
+
+.button{
+	padding-top: 50px;
+}
+	.carousel{width:900px;
+	       height:600px;}
