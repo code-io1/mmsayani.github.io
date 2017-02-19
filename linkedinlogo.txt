@@ -1,0 +1,2 @@
+<li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>

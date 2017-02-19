@@ -1,5 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.me {
+  display: block;
+  margin: 1em auto;
+  margin-bottom: 1em;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.resume{
+  float:right;
+  padding: 10px;
+}
+
+
+
 body {
     font-family: 'Lato', sans-serif;
     color: #FFF;
@@ -129,6 +147,7 @@ ul.social-icons {
 
 }
 
+
 .headtext{
 padding-top: 100px;
 line-height: 50px;
@@ -138,6 +157,7 @@ font-size: 2em;
 fadeInDown animated
 
 }
+
 
 .container{
 	color: black;
@@ -149,11 +169,18 @@ body { font-size:90%;}
 .mysec h1{
 	font-size: 3.5em;
 	font-family: fantasy;
+	color: #2C7594;
+
+	}
+.mysec p{
+	font-size: 1.5em;
 }
 
 .mysec blockquote{
 	font-family: inherit;
+
 }
+
 
 footer {
 	padding: 10px;
@@ -170,3 +197,9 @@ footer img{
 }
 	.carousel{width:900px;
 	       height:600px;}
+
+				 @media only screen and (max-width: 320px) {
+
+				    body { font-size: 1em; }
+
+				 }
